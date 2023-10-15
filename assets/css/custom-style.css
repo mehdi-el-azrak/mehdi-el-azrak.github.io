@@ -1,0 +1,24 @@
+.home {
+    background-image: url(../img/mehdi-bg.jpeg)
+}
+
+.socials {
+    padding: 0;
+}
+
+.socials ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mail-to {
+    color: currentColor;
+}
+
+.section-counter {
+    background-image: url(  ../img/counters-bg.jpg);
+}
+
+.bi-center {
+    vertical-align: sub;
+}
