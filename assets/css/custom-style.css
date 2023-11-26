@@ -2,6 +2,25 @@
     background-image: url(../img/mehdi-bg.jpeg)
 }
 
+.language-en {
+    color: white;
+    padding-right: 10px;
+}
+
+.separator {
+    color: white;
+    border-right: 2px solid;
+}
+
+.language-fr {
+    color: white;
+    padding-left: 10px;
+}
+
+.hovered {
+    color: #0078ff
+}
+
 .socials {
     padding: 0;
 }

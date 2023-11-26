@@ -37,7 +37,7 @@
   /**
    * Navbar links active state on scroll
    */
-  let navbarlinks = select('#navbar .scrollto', true)
+  let navbarlinks = select('#navbar .scroll-to', true)
   const navbarlinksActive = () => {
     let position = window.scrollY + 200
     navbarlinks.forEach(navbarlink => {
@@ -57,7 +57,7 @@
   /**
    * Scrolls to an element with header offset
    */
-  const scrollto = (el) => {
+  const scrollTo = (el) => {
     let header = select('#header')
     let offset = header.offsetHeight
 
@@ -124,9 +124,9 @@
   }, true)
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scroll with ofset on links with a class name .scroll-to
    */
-  on('click', '.scrollto', function(e) {
+  on('click', '.scroll-to', function (e) {
     if (select(this.hash)) {
       e.preventDefault()
 
@@ -137,7 +137,7 @@
         navbarToggle.classList.toggle('bi-list')
         navbarToggle.classList.toggle('bi-x')
       }
-      scrollto(this.hash)
+      scrollTo(this.hash)
     }
   }, true)
 
@@ -147,7 +147,7 @@
   window.addEventListener('load', () => {
     if (window.location.hash) {
       if (select(window.location.hash)) {
-        scrollto(window.location.hash)
+        scrollTo(window.location.hash)
       }
     }
   });
