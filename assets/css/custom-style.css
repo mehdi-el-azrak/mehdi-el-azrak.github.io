@@ -34,6 +34,15 @@
     color: currentColor;
 }
 
+.semarchy-link {
+    cursor: pointer;
+}
+
+.osgi-icon {
+    height: 25px;
+    vertical-align: sub;
+}
+
 .section-counter {
     background-image: url(  ../img/counters-bg.jpg);
 }
