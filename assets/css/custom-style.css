@@ -47,6 +47,16 @@
     background-image: url(  ../img/counters-bg.jpg);
 }
 
+.company {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.company-icon {
+    height: 70px;
+    width: 200px;
+}
+
 .bi-center {
     vertical-align: sub;
 }
