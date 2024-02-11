@@ -2,7 +2,7 @@
     background-image: url(../img/mehdi-bg.jpeg)
 }
 
-.language-en {
+.language-en, .language-fr {
     color: white;
     padding-right: 10px;
 }
@@ -12,13 +12,17 @@
     border-right: 2px solid;
 }
 
-.language-fr {
-    color: white;
-    padding-left: 10px;
-}
-
 .hovered {
     color: #0078ff
+}
+
+.resume {
+    color: white;
+    font-weight: 600;
+}
+
+.pdf-icon {
+    padding-right: 5px;
 }
 
 .socials {
